@@ -44,7 +44,7 @@ const SOCIALS = [
   {
       name: 'Mail',
       src: `${MailIcon}`,
-      hrf: 'https://contact@mushee.xyz'
+      hrf: 'mailto:contact@mushee.xyz'
   },
 ]
 
