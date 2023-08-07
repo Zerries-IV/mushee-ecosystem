@@ -1,6 +1,7 @@
 import { Button } from "react-bootstrap"
 import { keyframes, styled } from "styled-components"
 import IMAGE from '../assets/hero.webp'
+import { Socials } from "./Footer"
 
 const Background = styled.div`
   height: 100vh;
@@ -65,6 +66,7 @@ const Hero = () => {
         <H1>Decentralized ecosystem.</H1>
             <P>Mushee is building a decentralized ecosystem focusing on assets, identity, and socializing.</P>
             <P>Mushee is a wallet, social tool, transaction medium, and value router in the era of the digital economy</P>
+            <Socials />
             <Button style={{
                 color: 'white',
                 background: 'rgb(92, 181, 162)',

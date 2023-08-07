@@ -1,5 +1,9 @@
 import { keyframes, styled } from "styled-components"
 import IMAGE from '../assets/uses.webp'
+import ms_1 from '../assets/ms_1.jpg'
+import ms_2 from '../assets/ms_2.jpg'
+import ms_3 from '../assets/ms_3.jpg'
+import ms_4 from '../assets/ms_4.jpg'
 import { Card, Accordion } from "react-bootstrap"
 import { Divider } from "@mui/material"
 
@@ -71,25 +75,25 @@ const GridContainer =  styled.div`
 const TEAM = [
     {
         text: 'Amazing testnet activities going on, and solid team support from angles.',
-        image: IMAGE,
+        image: ms_1,
         name: 'Santino Luca',
         position: 'C.E.O Dush'
     },
     {
         text: 'For the first time, we have an easy-to-use, comprehensive, and affordable crypto hub to manage our finances.',
-        image: IMAGE,
+        image: ms_2,
         name: ' Filo Clau',
         position: 'C.O.O Huafi labs'
     },
     {
         text: 'The product is very intuitive, easy to use and other financial systems. The support is also very good and I have always sent crypto transactions.',
-        image: IMAGE,
+        image: ms_3,
         name: 'Sussan Nala ',
         position: 'C.E.O Poox'
     },
     {
         text: "Mushee Hub helps us monitor and manage crypto activities.  It is so easy to set up, I'm still not sure how to use it properly. I'm a total beginner and I can use Mushee Hub without any problems.",
-        image: IMAGE,
+        image: ms_4,
         name: 'Scano Nomer',
         position: 'Co-Founder Rotten House'
     },
