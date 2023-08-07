@@ -3,7 +3,7 @@ import { Divider } from "@mui/material"
 
 const TelegramIcon = 'https://img.icons8.com/ios-filled/FFFFFF/20/telegram-app.png'
 const TwitterIcon = 'https://img.icons8.com/?size=1x&color=ffffff&id=01GWmP9aUoPj&format=png'
-const MailIcon = 'https://img.icons8.com/?size=1x&color=ffffff&id=85119&format=png'
+// const MailIcon = 'https://img.icons8.com/?size=1x&color=ffffff&id=85119&format=png'
 
 const Background = styled.footer`
     height: fit-content;
@@ -41,11 +41,11 @@ const SOCIALS = [
       src: `${TelegramIcon}`,
       hrf: 'https://t.me/musheechat'
   },
-  {
-      name: 'Mail',
-      src: `${MailIcon}`,
-      hrf: 'mailto:contact@mushee.xyz'
-  },
+  // {
+  //     name: 'Mail',
+  //     src: `${MailIcon}`,
+  //     hrf: 'mailto:contact@mushee.xyz'
+  // },
 ]
 
 export function Socials(){
