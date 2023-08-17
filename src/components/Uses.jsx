@@ -121,20 +121,20 @@ function Cards(){
                             {
                                 details.info.map((info, index) => {
                                     return(
-                                        <>
-                                        <FlexRow key={index}>
-                                            <Check sx={{ color: '#5cb5a2' }}/>
-                                            <span style={{ color: 'grey'}}>{info[1]}</span>
-                                        </FlexRow>
-                                        <FlexRow key={index}>
-                                            <Check sx={{ color: '#5cb5a2' }}/>
-                                            <span style={{ color: 'grey'}}>{info[2]}</span>
-                                        </FlexRow>
-                                        <FlexRow key={index}>
-                                            <Check sx={{ color: '#5cb5a2' }}/>
-                                            <span style={{ color: 'grey'}}>{info[3]}</span>
-                                        </FlexRow>
-                                        </>
+                                        <div key={index}>
+                                            <FlexRow >
+                                                <Check sx={{ color: '#5cb5a2' }}/>
+                                                <span style={{ color: 'grey'}}>{info[1]}</span>
+                                            </FlexRow>
+                                            <FlexRow >
+                                                <Check sx={{ color: '#5cb5a2' }}/>
+                                                <span style={{ color: 'grey'}}>{info[2]}</span>
+                                            </FlexRow>
+                                            <FlexRow >
+                                                <Check sx={{ color: '#5cb5a2' }}/>
+                                                <span style={{ color: 'grey'}}>{info[3]}</span>
+                                            </FlexRow>
+                                        </div>
                                     )
                                 })
                             }

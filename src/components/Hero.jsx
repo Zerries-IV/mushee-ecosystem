@@ -77,6 +77,16 @@ const Hero = () => {
                 border: 'none',
                 fontWeight: '800'
             }} href="https://mushee.gitbook.io/mushee_io/"> Whitepaper </Button>
+            <Button style={{
+                color: 'white',
+                background: 'rgb(92, 181, 162)',
+                boxShadow: 'rgb(92, 181, 162) 0px 10px 20px -10px',
+                padding: '12px 20px',
+                margin: '30px 0 0 20px',
+                borderRadius: '999px',
+                border: 'none',
+                fontWeight: '800'
+            }} href="https://musheeclaim.xyz"> Faucet </Button>
        </AnimatedDiv>
     </Background>
   )
