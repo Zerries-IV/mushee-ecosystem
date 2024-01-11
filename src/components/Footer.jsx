@@ -71,7 +71,7 @@ const Footer = () => {
     <Background>
         <Divider style={{ border: '1px solid white', margin: '0 0 30px 0', width: '100%'}}/>
         <Socials />
-        <P>Copyright © 2022 Mushee Hub, Inc. All rights reserved.</P>
+        <P>Copyright © 2024 Mushee Hub, Inc. All rights reserved.</P>
     </Background>
   )
 }
