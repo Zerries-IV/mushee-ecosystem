@@ -139,7 +139,7 @@ function FAQ() {
         <Accordion.Header>How to use Mushee app?</Accordion.Header>
         <Accordion.Body>
             <ol>
-                <li>Download and install the Trust Wallet app from the App Store or Google Play.</li>
+                <li>Download and install the Mushee Wallet app from the App Store or Google Play.</li>
                 <li>Create a new wallet or import an existing wallet.</li>
                 <li>Add cryptocurrency to your wallet.</li>
                 <li>Send and receive cryptocurrency.</li>
